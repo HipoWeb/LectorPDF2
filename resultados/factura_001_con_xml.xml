@@ -1,0 +1,48 @@
+<Invoice version="1.0">
+  <Header>
+    <DocumentNumber>F001-00001234</DocumentNumber>
+    <IssueDate>2025-08-15</IssueDate>
+    <Currency>PEN</Currency>
+  </Header>
+
+  <Supplier>
+    <RUC>20123456789</RUC>
+    <Name>Comercial Andina S.A.C.</Name>
+    <Address>Av. Principal 123, Lima, PE</Address>
+  </Supplier>
+
+  <Customer>
+    <DocumentType>RUC</DocumentType>
+    <DocumentNumber>20678901234</DocumentNumber>
+    <Name>Servicios Integrales del Pacífico S.A.</Name>
+    <Address>Jr. Los Olivos 456, Lima, PE</Address>
+  </Customer>
+
+  <Items>
+    <Item>
+      <LineID>1</LineID>
+      <Description>Licencia Software Pro</Description>
+      <Quantity unit="NIU">2</Quantity>
+      <UnitPrice>120.00</UnitPrice>
+      <Tax type="IGV" rate="0.18">43.20</Tax>
+      <LineExtensionAmount>240.00</LineExtensionAmount>
+      <LineTotal>283.20</LineTotal>
+    </Item>
+    <Item>
+      <LineID>2</LineID>
+      <Description>Servicio de Implementación</Description>
+      <Quantity unit="ZZ">1</Quantity>
+      <UnitPrice>350.00</UnitPrice>
+      <Tax type="IGV" rate="0.18">63.00</Tax>
+      <LineExtensionAmount>350.00</LineExtensionAmount>
+      <LineTotal>413.00</LineTotal>
+    </Item>
+  </Items>
+
+  <Summary>
+    <SubTotal>590.00</SubTotal>
+    <Discounts>0.00</Discounts>
+    <TaxTotal>106.20</TaxTotal>
+    <GrandTotal>696.20</GrandTotal>
+  </Summary>
+</Invoice>

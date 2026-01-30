@@ -1,0 +1,57 @@
+<Invoice version="1.0">
+  <Header>
+    <DocumentNumber>F001-00001235</DocumentNumber>
+    <IssueDate>2025-08-20</IssueDate>
+    <Currency>PEN</Currency>
+  </Header>
+
+  <Supplier>
+    <RUC>20123456789</RUC>
+    <Name>Comercial Andina S.A.C.</Name>
+    <Address>Av. Principal 123, Lima, PE</Address>
+  </Supplier>
+
+  <Customer>
+    <DocumentType>DNI</DocumentType>
+    <DocumentNumber>45678901</DocumentNumber>
+    <Name>Juan Pérez</Name>
+    <Address>Mz. B Lt. 7, Callao, PE</Address>
+  </Customer>
+
+  <Items>
+    <Item>
+      <LineID>1</LineID>
+      <Description>Mouse Inalámbrico</Description>
+      <Quantity unit="NIU">3</Quantity>
+      <UnitPrice>59.90</UnitPrice>
+      <Tax type="IGV" rate="0.18">31.04</Tax>
+      <LineExtensionAmount>172.46</LineExtensionAmount>
+      <LineTotal>203.50</LineTotal>
+    </Item>
+    <Item>
+      <LineID>2</LineID>
+      <Description>Cuaderno A5</Description>
+      <Quantity unit="NIU">5</Quantity>
+      <UnitPrice>12.50</UnitPrice>
+      <Tax type="IGV" rate="0.18">10.80</Tax>
+      <LineExtensionAmount>59.98</LineExtensionAmount>
+      <LineTotal>70.78</LineTotal>
+    </Item>
+    <Item>
+      <LineID>3</LineID>
+      <Description>Laptop 14"</Description>
+      <Quantity unit="NIU">1</Quantity>
+      <UnitPrice>999.00</UnitPrice>
+      <Tax type="IGV" rate="0.18">172.58</Tax>
+      <LineExtensionAmount>958.76</LineExtensionAmount>
+      <LineTotal>1131.34</LineTotal>
+    </Item>
+  </Items>
+
+  <Summary>
+    <SubTotal>1241.20</SubTotal>
+    <Discounts>50.00</Discounts>
+    <TaxTotal>214.42</TaxTotal>
+    <GrandTotal>1405.62</GrandTotal>
+  </Summary>
+</Invoice>
