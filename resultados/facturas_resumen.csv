@@ -1,0 +1,3 @@
+document_number,issue_date,currency,subtotal,discounts,tax_total,grand_total,supplier_ruc,supplier_name,supplier_address,customer_doc_type,customer_doc_number,customer_name,customer_address
+F001-00001234,2025-08-15,PEN,590.0,0.0,106.2,696.2,20123456789,Comercial Andina S.A.C.,"Av. Principal 123, Lima, PE",RUC,20678901234,Servicios Integrales del Pacífico S.A.,"Jr. Los Olivos 456, Lima, PE"
+F001-00001235,2025-08-20,PEN,1241.2,50.0,214.42,1405.62,20123456789,Comercial Andina S.A.C.,"Av. Principal 123, Lima, PE",DNI,45678901,Juan Pérez,"Mz. B Lt. 7, Callao, PE"

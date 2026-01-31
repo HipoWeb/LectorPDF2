@@ -1,0 +1,6 @@
+document_number,issue_date,currency,line_id,description,quantity,unit,unit_price,line_extension_amount,tax_type,tax_rate,tax_amount,line_total,supplier_ruc,supplier_name,supplier_address,customer_doc_type,customer_doc_number,customer_name,customer_address
+F001-00001234,2025-08-15,PEN,1,Licencia Software Pro,2.0,NIU,120.0,240.0,IGV,0.18,43.2,283.2,20123456789,Comercial Andina S.A.C.,"Av. Principal 123, Lima, PE",RUC,20678901234,Servicios Integrales del Pacífico S.A.,"Jr. Los Olivos 456, Lima, PE"
+F001-00001234,2025-08-15,PEN,2,Servicio de Implementación,1.0,ZZ,350.0,350.0,IGV,0.18,63.0,413.0,20123456789,Comercial Andina S.A.C.,"Av. Principal 123, Lima, PE",RUC,20678901234,Servicios Integrales del Pacífico S.A.,"Jr. Los Olivos 456, Lima, PE"
+F001-00001235,2025-08-20,PEN,1,Mouse Inalámbrico,3.0,NIU,59.9,172.46,IGV,0.18,31.04,203.5,20123456789,Comercial Andina S.A.C.,"Av. Principal 123, Lima, PE",DNI,45678901,Juan Pérez,"Mz. B Lt. 7, Callao, PE"
+F001-00001235,2025-08-20,PEN,2,Cuaderno A5,5.0,NIU,12.5,59.98,IGV,0.18,10.8,70.78,20123456789,Comercial Andina S.A.C.,"Av. Principal 123, Lima, PE",DNI,45678901,Juan Pérez,"Mz. B Lt. 7, Callao, PE"
+F001-00001235,2025-08-20,PEN,3,"Laptop 14""",1.0,NIU,999.0,958.76,IGV,0.18,172.58,1131.34,20123456789,Comercial Andina S.A.C.,"Av. Principal 123, Lima, PE",DNI,45678901,Juan Pérez,"Mz. B Lt. 7, Callao, PE"
